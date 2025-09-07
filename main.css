@@ -56,3 +56,50 @@ th, td {
 thead {
   background-color: #f0e6f6;
 }
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #5a2a83;
+}
+
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.card a {
+  color: #5a2a83;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0e6f6;
+}
