@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,6 +7,7 @@ body {
   color: #333;
 }
 
+/* Header */
 header {
   background-color: #5a2a83;
   color: white;
@@ -13,10 +15,12 @@ header {
   text-align: center;
 }
 
+/* Main Content */
 main {
   padding: 30px;
 }
 
+/* Card Containers */
 .card {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -31,6 +35,22 @@ main {
   color: #5a2a83;
 }
 
+/* Subcards for Program Modules */
+.subcard {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.subcard h3 {
+  margin-top: 0;
+  color: #5a2a83;
+}
+
+/* Lists */
 .card ul {
   list-style-type: none;
   padding-left: 0;
@@ -40,6 +60,7 @@ main {
   margin-bottom: 10px;
 }
 
+/* Links */
 .card a {
   color: #5a2a83;
   text-decoration: none;
@@ -49,6 +70,7 @@ main {
   text-decoration: underline;
 }
 
+/* Table Styles */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -65,6 +87,7 @@ thead {
   background-color: #f0e6f6;
 }
 
+/* Footer */
 footer {
   background-color: #eee;
   text-align: center;
