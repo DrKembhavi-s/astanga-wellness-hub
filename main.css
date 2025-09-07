@@ -48,16 +48,27 @@ body {
   color: #ffcc00;
 }
 
-/* Hero Section */
+/* Hero Section with Embedded Image */
 .hero {
-  background: url('assets/hero.jpg') no-repeat center center/cover;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   text-align: center;
   color: white;
-  padding: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(60%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 1rem;
 }
 
 .hero-text h1 {
@@ -166,7 +177,7 @@ button[type="submit"]:hover {
   text-decoration: underline;
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
@@ -183,5 +194,10 @@ button[type="submit"]:hover {
 
   .program-block {
     padding: 1.5rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
   }
 }
