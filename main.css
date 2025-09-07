@@ -41,3 +41,18 @@ footer {
   padding: 15px;
   font-size: 0.9em;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0e6f6;
+}
