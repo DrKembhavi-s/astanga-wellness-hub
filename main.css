@@ -1,54 +1,43 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff;
+  padding: 0;
+  background-color: #fdfdfd;
   color: #333;
 }
+
 header {
   background-color: #5a2a83;
-  color: #fff;
+  color: white;
   padding: 20px;
   text-align: center;
 }
 
-nav a {
-  color: #fff;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-.hero {
-  background-image: url('assets/images/banner.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 80px 20px;
-  text-align: center;
-  color: #fff;
-}
-.cta-section {
-  padding: 40px;
-  background-color: #f0eafc;
-  text-align: center;
+main {
+  padding: 30px;
 }
 
-.cta-button {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 24px;
-  background-color: #5a2a83;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.footer {
-  padding: 20px;
-  background-color: #5a2a83;
-  color: #fff;
-  text-align: center;
+h2 {
+  color: #5a2a83;
 }
 
-.footer-links a {
-  color: #fff;
-  text-decoration: underline;
-  margin: 0 10px;
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #5a2a83;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
 }
