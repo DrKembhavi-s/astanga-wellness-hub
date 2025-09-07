@@ -17,45 +17,6 @@ main {
   padding: 30px;
 }
 
-h2 {
-  color: #5a2a83;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #5a2a83;
-  text-decoration: none;
-}
-
-footer {
-  background-color: #eee;
-  text-align: center;
-  padding: 15px;
-  font-size: 0.9em;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-th, td {
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: left;
-}
-
-thead {
-  background-color: #f0e6f6;
-}
 .card {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -102,4 +63,11 @@ th, td {
 
 thead {
   background-color: #f0e6f6;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
 }
