@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+header {
+  background-color: #5a2a83;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background-image: url('assets/images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+.cta-section {
+  padding: 40px;
+  background-color: #f0eafc;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #5a2a83;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.footer {
+  padding: 20px;
+  background-color: #5a2a83;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 10px;
+}
